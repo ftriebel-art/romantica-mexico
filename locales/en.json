@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "packages": "Packages",
+    "flights": "Flights",
+    "hotels": "Hotels",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Escape to Mexico's Most Exclusive Destinations",
+      "subtitle": "Curated luxury travel experiences designed for unforgettable moments.",
+      "availability": "Limited availability for upcoming travel dates",
+      "cta": "Explore Packages"
+    },
+    "afterBook": {
+      "title": "What Happens After You Book",
+      "steps": [
+        {
+          "title": "1. Secure your reservation",
+          "description": "Your booking is confirmed with ease and confidence."
+        },
+        {
+          "title": "2. We contact you within 24 hours",
+          "description": "A dedicated concierge reaches out to begin planning your journey."
+        },
+        {
+          "title": "3. Receive your custom itinerary",
+          "description": "Enjoy a beautifully tailored plan designed for your preferences."
+        },
+        {
+          "title": "4. Travel with full concierge support",
+          "description": "Your entire trip is guided with seamless luxury service."
+        }
+      ]
+    },
+    "packages": {
+      "cancun": {
+        "title": "Cancun All-Inclusive Escape 🌴",
+        "description": "Indulge in effortless luxury along Cancun's iconic coastline, where turquoise waters meet world-class service.",
+        "imagineTitle": "Imagine Your Experience",
+        "imagineText": "Wake to warm sea breezes, footsteps in powder sand, and the soft rhythm of the Caribbean just beyond your suite. Every detail is tailored to make the day feel indulgent, calm, and utterly unforgettable.",
+        "specialTitle": "What makes this special:",
+        "specialItems": [
+          "✓ 5-star beachfront resort with ocean views",
+          "✓ Seamless airport transfers",
+          "✓ Gourmet dining and premium beverages",
+          "✓ Curated water and beach experiences"
+        ],
+        "price": "$1,999 • 5 nights"
+      },
+      "tulum": {
+        "title": "Tulum Eco-Luxury Retreat 🌿",
+        "description": "Experience Tulum's signature blend of barefoot luxury and natural beauty in an intimate, design-forward setting.",
+        "imagineTitle": "Imagine Your Experience",
+        "imagineText": "Follow the scent of salt and garden flowers to an open-air suite where candlelit dinners and private ocean swims create a sense of pure serenity. Every moment is curated to feel warm, effortless, and deeply personal.",
+        "specialTitle": "What makes this special:",
+        "specialItems": [
+          "✓ Boutique eco-resort immersed in nature",
+          "✓ Private beach access and curated wellness",
+          "✓ Spa rituals and holistic experiences",
+          "✓ Guided cultural and cenote excursions"
+        ],
+        "price": "$2,499 • 5 nights"
+      },
+      "isla": {
+        "title": "Isla de Mujeres Private Island Experience 🏝️",
+        "description": "Escape to Isla de Mujeres, a tranquil Caribbean sanctuary known for its crystal-clear waters and refined island charm.",
+        "imagineTitle": "Imagine Your Experience",
+        "imagineText": "Picture a private terrace with sunset cocktails, the ocean glowing in gold, and barefoot strolls between palm-fringed pools and the shore. This is a place where luxury feels relaxed, effortlessly personal, and perfectly paced.",
+        "specialTitle": "What makes this special:",
+        "specialItems": [
+          "✓ Exclusive island resort experience",
+          "✓ Private yacht and sunset excursions",
+          "✓ Elevated dining with oceanfront views",
+          "✓ Snorkeling and reef exploration"
+        ],
+        "price": "$2,199 • 5 nights"
+      },
+      "reserveCta": "Reserve Your Spot"
+    },
+    "form": {
+      "eyebrow": "Plan Your Trip",
+      "title": "Request a custom itinerary tailored to your luxury escape.",
+      "name": "Name",
+      "email": "Email",
+      "destination": "Destination interest",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "you@example.com",
+      "destinationPlaceholder": "Cancun, Tulum, Isla de Mujeres",
+      "submit": "Request Custom Itinerary",
+      "success": "Your request has been received. We'll contact you shortly.",
+      "privacy": "We respect your privacy. No spam."
+    },
+    "testimonials": {
+      "eyebrow": "Client Stories",
+      "title": "Travel moments curated for the discerning guest.",
+      "items": [
+        {
+          "quote": "★★★★★ Best trip we've ever taken - everything was seamless.",
+          "author": "— Sarah L., Los Angeles"
+        },
+        {
+          "quote": "Incredible experience, felt like VIP from start to finish.",
+          "author": "— Emily S., Miami"
+        },
+        {
+          "quote": "Will definitely book again.",
+          "author": "— James R., New York"
+        }
+      ]
+    },
+    "trust": {
+      "items": [
+        "Secure checkout powered by Stripe",
+        "Personalized travel planning",
+        "24/7 support during your trip"
+      ]
+    }
+  }
+}

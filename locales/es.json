@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "packages": "Paquetes",
+    "flights": "Vuelos",
+    "hotels": "Hoteles",
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hero": {
+      "title": "Escapa a los destinos más exclusivos de México",
+      "subtitle": "Experiencias de viaje de lujo diseñadas para momentos inolvidables.",
+      "availability": "Disponibilidad limitada para próximas fechas de viaje",
+      "cta": "Explorar paquetes"
+    },
+    "afterBook": {
+      "title": "Qué sucede después de reservar",
+      "steps": [
+        {
+          "title": "1. Asegura tu reserva",
+          "description": "Tu reserva se confirma con facilidad y confianza."
+        },
+        {
+          "title": "2. Te contactamos en 24 horas",
+          "description": "Un concierge dedicado se comunica para comenzar a planear tu viaje."
+        },
+        {
+          "title": "3. Recibe tu itinerario personalizado",
+          "description": "Disfruta un plan cuidadosamente diseñado según tus preferencias."
+        },
+        {
+          "title": "4. Viaja con soporte concierge total",
+          "description": "Todo tu viaje está guiado con un servicio de lujo impecable."
+        }
+      ]
+    },
+    "packages": {
+      "cancun": {
+        "title": "Escapada todo incluido en Cancún 🌴",
+        "description": "Disfruta lujo sin esfuerzo en la icónica costa de Cancún, donde las aguas turquesa se combinan con un servicio de clase mundial.",
+        "imagineTitle": "Imagina tu experiencia",
+        "imagineText": "Despierta con brisa marina, camina sobre arena suave y escucha el ritmo del Caribe desde tu suite. Cada detalle está pensado para que tu día se sienta indulgente, tranquilo e inolvidable.",
+        "specialTitle": "Qué hace esto especial:",
+        "specialItems": [
+          "✓ Resort 5 estrellas frente al mar con vista al océano",
+          "✓ Traslados al aeropuerto sin complicaciones",
+          "✓ Gastronomía gourmet y bebidas premium",
+          "✓ Experiencias de playa y agua seleccionadas"
+        ],
+        "price": "$1,999 • 5 noches"
+      },
+      "tulum": {
+        "title": "Retiro eco-lujo en Tulum 🌿",
+        "description": "Vive la mezcla distintiva de lujo descalzo y belleza natural de Tulum en un entorno íntimo y de diseño.",
+        "imagineTitle": "Imagina tu experiencia",
+        "imagineText": "Sigue el aroma de sal y flores hacia una suite al aire libre, con cenas a la luz de las velas y baños privados en el mar. Cada momento está curado para sentirse cálido, fácil y profundamente personal.",
+        "specialTitle": "Qué hace esto especial:",
+        "specialItems": [
+          "✓ Resort boutique eco-lujo en plena naturaleza",
+          "✓ Acceso privado a playa y wellness curado",
+          "✓ Rituales de spa y experiencias holísticas",
+          "✓ Excursiones culturales y cenotes guiados"
+        ],
+        "price": "$2,499 • 5 noches"
+      },
+      "isla": {
+        "title": "Experiencia privada en Isla Mujeres 🏝️",
+        "description": "Escapa a Isla Mujeres, un santuario caribeño de aguas cristalinas y encanto isleño refinado.",
+        "imagineTitle": "Imagina tu experiencia",
+        "imagineText": "Imagina una terraza privada con cocteles al atardecer, el mar dorado y paseos descalzos entre palmeras y playa. Un destino donde el lujo se siente relajado, personal y perfectamente equilibrado.",
+        "specialTitle": "Qué hace esto especial:",
+        "specialItems": [
+          "✓ Experiencia exclusiva en resort isleño",
+          "✓ Yate privado y excursiones al atardecer",
+          "✓ Gastronomía elevada frente al mar",
+          "✓ Snorkel y exploración de arrecifes"
+        ],
+        "price": "$2,199 • 5 noches"
+      },
+      "reserveCta": "Reserva tu lugar"
+    },
+    "form": {
+      "eyebrow": "Planifica tu viaje",
+      "title": "Solicita un itinerario personalizado para tu escapada de lujo.",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "destination": "Destino de interés",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "destinationPlaceholder": "Cancún, Tulum, Isla Mujeres",
+      "submit": "Solicitar itinerario personalizado",
+      "success": "Hemos recibido tu solicitud. Te contactaremos en breve.",
+      "privacy": "Respetamos tu privacidad. Sin spam."
+    },
+    "testimonials": {
+      "eyebrow": "Historias de clientes",
+      "title": "Momentos de viaje curados para huéspedes exigentes.",
+      "items": [
+        {
+          "quote": "★★★★★ El mejor viaje que hemos hecho, todo fue impecable.",
+          "author": "— Sarah L., Los Ángeles"
+        },
+        {
+          "quote": "Experiencia increíble, nos sentimos VIP de inicio a fin.",
+          "author": "— Emily S., Miami"
+        },
+        {
+          "quote": "Definitivamente volveremos a reservar.",
+          "author": "— James R., Nueva York"
+        }
+      ]
+    },
+    "trust": {
+      "items": [
+        "Pago seguro con Stripe",
+        "Planificación de viaje personalizada",
+        "Soporte 24/7 durante tu viaje"
+      ]
+    }
+  }
+}
