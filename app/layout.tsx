@@ -22,8 +22,48 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Romantica Mexico | Luxury Travel Experiences",
+
   description:
-    "Curated luxury travel experiences in Cancun, Tulum, and Isla de Mujeres. Seamless, high-end escapes designed for unforgettable moments.",
+    "Curated luxury travel experiences across Mexico's most exclusive destinations including Cancun, Tulum, Cabo, and Isla Mujeres.",
+
+  keywords: [
+    "luxury Mexico travel",
+    "Cancun luxury resorts",
+    "Tulum vacations",
+    "Mexico travel concierge",
+    "all inclusive luxury travel",
+  ],
+
+  openGraph: {
+    title: "Romantica Mexico",
+    description:
+      "Luxury travel experiences designed for unforgettable escapes.",
+    url: "https://romanticamexico.com",
+    siteName: "Romantica Mexico",
+
+    images: [
+      {
+        url:
+          "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+        width: 1200,
+        height: 630,
+        alt: "Luxury Mexico travel",
+      },
+    ],
+
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Romantica Mexico",
+    description:
+      "Curated luxury travel experiences across Mexico.",
+    images: [
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+    ],
+  },
 };
 
 export default function RootLayout({
