@@ -5,89 +5,70 @@ import { useState } from "react";
 const cancunPricingTiers = {
   standard: {
     name: "Standard",
-    price: "$2,299 • 5 nights",
+    price: "$2,299",
     details:
-      "Stay at premium all-inclusive resorts such as Hyatt Vivid or Hilton Cancun.",
+      "Stay at premium all-inclusive resorts with curated dining and concierge support.",
   },
 
   premium: {
     name: "Premium",
-    price: "$2,799 • 5 nights",
+    price: "$3,499",
     details:
-      "Stay at elevated luxury resorts such as Secrets The Vine or Live Aqua.",
+      "Oceanfront suites, upgraded experiences, luxury dining, and elevated concierge access.",
   },
 
   elite: {
     name: "Elite",
-    price: "$3,499+ • 5 nights",
+    price: "$5,999",
     details:
-      "Stay at world-class luxury resorts such as Atelier Playa Mujeres or Le Blanc Spa Resort.",
+      "Ultra-luxury private experiences, premium suites, VIP transfers, and fully customized planning.",
   },
 };
 
+type CancunTier = keyof typeof cancunPricingTiers;
+
 export default function CancunPricingSelector() {
   const [selectedCancunTier, setSelectedCancunTier] =
-    useState("standard");
+    useState<CancunTier>("standard");
 
   const selectedCancunTierData =
     cancunPricingTiers[selectedCancunTier];
 
   return (
-    <div className="mt-12 rounded-3xl border border-white/10 bg-black/40 p-6 text-center md:p-8">
-      <div className="mb-4 grid gap-3 text-left">
-        {Object.keys(cancunPricingTiers).map((tierKey) => {
-          const tier = cancunPricingTiers[tierKey];
-
-          const isSelected =
-            selectedCancunTier === tierKey;
-
-          return (
-            <button
-              key={tierKey}
-              type="button"
-              onClick={() =>
-                setSelectedCancunTier(tierKey)
-              }
-              className={`rounded-2xl border px-4 py-3 text-left transition-all duration-500 ${
-                isSelected
-                  ? "border-orange-300/70 bg-orange-300/10 shadow-[0_0_0_1px_rgba(251,146,60,0.3)]"
-                  : "border-white/15 bg-black/40 hover:border-orange-300/40 hover:bg-white/5"
-              }`}
-            >
-              <p className="text-sm uppercase tracking-[0.14em] text-gray-300">
-                {tier.name}
-              </p>
-
-              <p className="mt-1 text-lg font-medium text-white">
-                {tier.price}
-              </p>
-
-              <p className="mt-1 text-sm text-gray-300">
-                {tier.details}
-              </p>
-            </button>
-          );
-        })}
+    <section className="mt-12">
+      <div className="flex flex-wrap gap-3">
+        {(Object.keys(cancunPricingTiers) as CancunTier[]).map((tier) => (
+          <button
+            key={tier}
+            onClick={() => setSelectedCancunTier(tier)}
+            className={`rounded-full px-5 py-2 text-sm transition-all duration-300 ${
+              selectedCancunTier === tier
+                ? "bg-orange-400 text-black"
+                : "bg-white/10 text-white hover:bg-white/20"
+            }`}
+          >
+            {cancunPricingTiers[tier].name}
+          </button>
+        ))}
       </div>
 
-      <p className="mb-2 text-3xl font-semibold text-orange-400 md:text-4xl">
-        {selectedCancunTierData.price}
-      </p>
+      <div className="mt-6 rounded-3xl border border-white/10 bg-black/40 p-8">
+        <p className="text-sm uppercase tracking-[0.3em] text-orange-300">
+          {selectedCancunTierData.name}
+        </p>
 
-      <p className="mb-6 text-sm text-gray-300">
-        {selectedCancunTierData.details}
-      </p>
+        <h3 className="mt-3 text-4xl font-light">
+          {selectedCancunTierData.price}
+        </h3>
 
-      <a
-        href="https://book.stripe.com/4gM6oI3zn6519EleQIgbm01"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block w-full md:w-auto"
-      >
-        <button className="w-full rounded-3xl bg-gradient-to-r from-orange-500 via-orange-400 to-amber-300 px-10 py-4 font-semibold text-black transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-xl hover:shadow-orange-500/25">
-          Reserve Your Spot
+        <p className="mt-4 max-w-2xl text-gray-300">
+          {selectedCancunTierData.details}
+        </p>
+
+        <button className="mt-6 rounded-full bg-gradient-to-r from-orange-500 via-orange-400 to-amber-300 px-8 py-3 font-semibold text-black transition-all duration-300 hover:scale-[1.02]">
+          Reserve Experience
         </button>
-      </a>
-    </div>
+      </div>
+    </section>
   );
 }
